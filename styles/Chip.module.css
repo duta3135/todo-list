@@ -1,0 +1,38 @@
+.chipChecked {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15em;
+  height: 2em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding-right: 1em;
+  padding-bottom: 0.25rem;
+}
+.chipNotChecked {
+  background-color: #fce8a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15em;
+  height: 2em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding-right: 1em;
+  padding-bottom: 0.25rem;
+}
+.notStrikeThru {
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+}
+.strikeThru {
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: line-through;
+}
