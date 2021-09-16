@@ -13,6 +13,7 @@ export default function Home() {
     let newArr = [...Items].filter(item => item.id !== id)
     setItems(newArr)
   }
+  // console.log(...Items)
   return (
     <div >
       <Head>
@@ -22,7 +23,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Field onSubmit={addItem}/>
-        <List items={Items} deleteItem={deleteItem}/>
+        <List items={Items} deleteItem={deleteItem} setItems={setItems}/>
       </main>
       
     </div>
